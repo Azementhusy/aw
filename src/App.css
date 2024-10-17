@@ -2,16 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +26,98 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  margin-top:30px;
+
+  @media print {
+    margin-top: 20px;
+  }
+}
+
+.footer-container{
+  margin-top:200px;
+}
+
+.footer-container p{
+  margin-bottom:6px;
+  text-align:center;
+}
+
+.header-container {
+  margin-top: 50px;
+}
+
+.header-left {
+  margin-top: 30px;
+
+  @media print {
+    margin-top: 0px;
+  }
+}
+
+.header-right {
+  text-align: right;
+}
+
+
+
+@media (max-width: 767px) {
+  .header-left, .header-right {
+    text-align: center;
+  }
+}
+
+.icon-button {
+  display: inline-block;
+  background-attachment: scroll;
+  background-color: rgba(0, 0, 0, 0);
+  background-clip: border-box;
+  position: relative;
+  color: black; /* 图标原始颜色 */
+  text-decoration: none; /* 去除链接下划线 */
+  overflow: hidden; /* 确保伪元素不会超出按钮边界 */
+}
+
+.icon-button:hover {
+  animation: bounce 0.5s;
+  animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+}
+
+.section {
+  border-bottom-style:dashed;
+  border-bottom-width:2px;
+  text-align:center;
+  margin-bottom:30px;
+  padding-bottom:10px;
+}
+
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h4 {
+  padding-left:15px;
+  padding-right:15px;
+}
+
+p {
+  padding-left:15px;
+  padding-right:15px;
+  margin-bottom:6px;
+  
 }
