@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9be317d6.css",
-    "main.js": "/static/js/main.6917e41d.js",
-    "static/js/453.7b902469.chunk.js": "/static/js/453.7b902469.chunk.js",
-    "static/media/Azem.jpg": "/static/media/Azem.a567ad2056a56e983591.jpg",
-    "index.html": "/index.html",
-    "main.9be317d6.css.map": "/static/css/main.9be317d6.css.map",
-    "main.6917e41d.js.map": "/static/js/main.6917e41d.js.map",
-    "453.7b902469.chunk.js.map": "/static/js/453.7b902469.chunk.js.map"
+    "main.css": "/aw/static/css/main.9be317d6.css",
+    "main.js": "/aw/static/js/main.36b503f2.js",
+    "static/js/453.7b902469.chunk.js": "/aw/static/js/453.7b902469.chunk.js",
+    "static/media/Azem.jpg": "/aw/static/media/Azem.a567ad2056a56e983591.jpg",
+    "index.html": "/aw/index.html",
+    "main.9be317d6.css.map": "/aw/static/css/main.9be317d6.css.map",
+    "main.36b503f2.js.map": "/aw/static/js/main.36b503f2.js.map",
+    "453.7b902469.chunk.js.map": "/aw/static/js/453.7b902469.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9be317d6.css",
-    "static/js/main.6917e41d.js"
+    "static/js/main.36b503f2.js"
   ]
 }
