@@ -3,22 +3,26 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Header = () => {
   return (
-    <div class="container">
-      <div class="row">
+    <div className="p-3 flex rounded-lg w-full">
+
         
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left" >
+          <div className="flex flex-col w-1/3">
             <h1>Wenzheng Huang</h1>
             <h2>HCI Student | Full-stack Developer</h2>
           </div>
 
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
-            <a href="你的GitHub链接" target="_blank" rel="noopener noreferrer" className="icon-button"><FaGithub size="3em" /></a>
-            <a href="你的领英链接" target="_blank" rel="noopener noreferrer" className="icon-button"><FaLinkedin size="3em" /></a>
-            <p>Email: Azementhusy@gmail.com</p>
-            <p>Website:Azementhusy</p>
+          <div className="flex flex-col ml-4 w-2/3 ">
+            <div className="flex flex-col items-end space-x-2">
+              <div>
+              <a href="https://github.com/Azementhusy" target="_blank" rel="noopener noreferrer" className="icon-button"><FaGithub size="3em" /></a>
+              <a href="你的领英链接" target="_blank" rel="noopener noreferrer" className="icon-button"><FaLinkedin size="3em" /></a>
+              </div>
+              <p>Email: Azementhusy@gmail.com</p>
+              <p>Website: Azementhusy</p>
+            </div>
           </div>
   
-      </div>
+
     </div>
   );
 };

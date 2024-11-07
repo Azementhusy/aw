@@ -1,28 +1,62 @@
 import React from 'react';
+import UCDLogo from '../University College Dublin.svg';
+import ZUELLogo from '../ZUEL.svg';
+
+
 
 const Education = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center p-4">
 
+      <h3 className="text-3xl font-bold">Education</h3>
+      <div className="divider my-0"></div>
 
-      <h3 className='section'>Education</h3>
-      <div className = 'row'>
-        <div class="row clearfix layout layout-left border-weak">
-          <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
-            <h4>University College Dublin</h4>
-            <p><b>Master of Human Computer Interaction</b></p>
-            <p>Sep. 2023 - Sep. 2024</p>
-            <p class="no-print aditional-links"></p>
+      <div className="p-3 flex bg-whit rounded-lg w-full">
+        <div className="w-1/4">
+          <h4 className="font-semibold">University College Dublin</h4>
+          <p><b>MSc in Human Computer Interaction</b></p>
+          <p>Sep. 2023 - Sep. 2024</p>
+          <div>
+            <img src = {UCDLogo} alt="UCD logo" className="w-24" />
           </div>
-          <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
-            <p class="quote">UCD is a leading research-intensive university in Ireland.</p>
-            <p><strong>Modules</strong>: UXD‑Centered Design, Quantitative Data Analysis, Topics in Digital Media & Comm, AI & Ethics</p>
-            <p><strong>First-Class Honours</strong></p>
+        </div>
+
+        <div className="flex flex-col bg-white ml-4 w-3/4">
+          <div className="flex flex-col items-center space-x-2">
+            <p className="italic flex">UCD is a leading research-intensive university in Ireland.</p>
+          </div>
+          <p><strong>Modules</strong>: UXD‑Centered Design, Quantitative Data Analysis, Topics in Digital Media & Comm, AI & Ethics</p>
+          <div className="tooltip" data-tip="hello" >
+            <button className="btn">First-Class Honours</button>
+          </div>
+        </div>
+      </div>
+      
+
+      <div className="p-3 flex rounded-lg w-full">
+        <div className="w-1/4">
+          <h4 className="font-semibold">University of ZUEL</h4>
+          <p><b>BFA in Digital Media</b></p>
+          <p>Sep. 2014 - Jun. 2018</p>
+          <div>
+            <img src = {ZUELLogo} alt="ZUEL logo" className="w-12 ml-6" />
+          </div>
+        </div>
+
+        <div className="flex flex-col ml-4 w-3/4">
+          <div className="flex flex-col items-center space-x-2">
+            <p className="italic flex">ZUEL is one of the China's key universities of "Project 211", directly administered by the Ministry of Education.</p>
+          </div>
+          <p><strong>Modules: </strong>Photography and Camera Shooting, Film and Television Editing and Compositing, Writing Scripts, Shooting Script Design, Directing, 3D Animation Creation, Digital Sculpture, UI Design, Digital Interactive Design</p>
+          <div className="tooltip" data-tip="hello">
+
+              <p className="cursor-pointer underline text-black hover:text-blue-700">First-Class Honours</p>
 
           </div>
         </div>
       </div>
     </div>
+ 
   );
 };
 

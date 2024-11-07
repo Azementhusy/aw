@@ -11,25 +11,25 @@ import './App.css';
 
 const App = () => {
   return (
-    <div class="page-content">
+    <div className="page-content bg-stone-100">
 
-      <div class="container header-container">
+      <div className="mx-auto w-4/5">
         <Header />
       </div>
 
-      <div class="container">
+      <div className="mx-auto w-4/5">
         <About />
       </div>
 
-      <div class="container">
+      <div className="mx-auto w-4/5">
         <Education />
       </div>
 
-      <div class="container">
+      <div className="mx-auto w-4/5">
         <Skills />
       </div>
 
-      <div class="container">
+      <div className="mx-auto w-4/5">
         <Projects />
       </div>
 
