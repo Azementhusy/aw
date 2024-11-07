@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/aw/static/css/main.9be317d6.css",
-    "main.js": "/aw/static/js/main.36b503f2.js",
+    "main.css": "/aw/static/css/main.3d866800.css",
+    "main.js": "/aw/static/js/main.c8921af9.js",
     "static/js/453.7b902469.chunk.js": "/aw/static/js/453.7b902469.chunk.js",
     "static/media/Azem.jpg": "/aw/static/media/Azem.a567ad2056a56e983591.jpg",
+    "static/media/ZUEL.svg": "/aw/static/media/ZUEL.b370617bc69296945d361cc4a5eb6db0.svg",
+    "static/media/University College Dublin.svg": "/aw/static/media/University College Dublin.411622b9428b961aa69386576d356b33.svg",
     "index.html": "/aw/index.html",
-    "main.9be317d6.css.map": "/aw/static/css/main.9be317d6.css.map",
-    "main.36b503f2.js.map": "/aw/static/js/main.36b503f2.js.map",
+    "main.3d866800.css.map": "/aw/static/css/main.3d866800.css.map",
+    "main.c8921af9.js.map": "/aw/static/js/main.c8921af9.js.map",
     "453.7b902469.chunk.js.map": "/aw/static/js/453.7b902469.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9be317d6.css",
-    "static/js/main.36b503f2.js"
+    "static/css/main.3d866800.css",
+    "static/js/main.c8921af9.js"
   ]
 }
