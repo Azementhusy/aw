@@ -21,13 +21,13 @@ const Education = () => {
           </div>
         </div>
 
-        <div className="flex flex-col bg-white ml-4 w-3/4">
+        <div className="flex flex-col ml-4 w-3/4">
           <div className="flex flex-col items-center space-x-2">
             <p className="italic flex">UCD is a leading research-intensive university in Ireland.</p>
           </div>
           <p><strong>Modules</strong>: UXD‑Centered Design, Quantitative Data Analysis, Topics in Digital Media & Comm, AI & Ethics</p>
-          <div className="tooltip" data-tip="hello" >
-            <button className="btn">First-Class Honours</button>
+          <div>
+            <p><b>First-Class Honours</b></p>
           </div>
         </div>
       </div>
@@ -48,9 +48,9 @@ const Education = () => {
             <p className="italic flex">ZUEL is one of the China's key universities of "Project 211", directly administered by the Ministry of Education.</p>
           </div>
           <p><strong>Modules: </strong>Photography and Camera Shooting, Film and Television Editing and Compositing, Writing Scripts, Shooting Script Design, Directing, 3D Animation Creation, Digital Sculpture, UI Design, Digital Interactive Design</p>
-          <div className="tooltip" data-tip="hello">
+          <div>
 
-              <p className="cursor-pointer underline text-black hover:text-blue-700">First-Class Honours</p>
+              <p><b>First-Class Honours</b></p>
 
           </div>
         </div>

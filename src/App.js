@@ -13,23 +13,23 @@ const App = () => {
   return (
     <div className="page-content bg-stone-100">
 
-      <div className="mx-auto w-4/5">
+      <div className="mx-auto w-2/3">
         <Header />
       </div>
 
-      <div className="mx-auto w-4/5">
+      <div className="mx-auto w-2/3">
         <About />
       </div>
 
-      <div className="mx-auto w-4/5">
+      <div className="mx-auto w-2/3">
         <Education />
       </div>
 
-      <div className="mx-auto w-4/5">
+      <div className="mx-auto w-2/3">
         <Skills />
       </div>
 
-      <div className="mx-auto w-4/5">
+      <div className="mx-auto w-2/3">
         <Projects />
       </div>
 

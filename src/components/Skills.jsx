@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaDatabase, FaRProject, FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaNode, FaReact, FaDocker, FaBootstrap } from 'react-icons/fa';
-import { SiTypescript, SiPostgresql, SiExpress, SiTailwindcss, SiAdobe, SiAdobeaftereffects, SiAdobephotoshop, SiAdobeillustrator, SiAdobelightroomclassic, SiAdobepremierepro, SiAdobeaudition, SiPostman } from 'react-icons/si';
+import { SiTypescript, SiFigma, SiCanva, SiPostgresql, SiExpress, SiTailwindcss, SiAdobe, SiAdobeaftereffects, SiAdobephotoshop, SiAdobeillustrator, SiAdobelightroomclassic, SiAdobepremierepro, SiAdobeaudition, SiPostman } from 'react-icons/si';
 
 const Skills = () => {
   const [hoverIndex, setHoverIndex] = useState(-1);
@@ -23,12 +23,12 @@ const Skills = () => {
       </div>
 
       <div className="flex justify-center gap-4 p-4">
-        {[FaHtml5, FaCss3Alt, FaJsSquare, SiTypescript, SiExpress, SiTailwindcss, FaReact, FaDocker, FaBootstrap, FaDatabase, FaRProject, FaPython, SiPostgresql, SiPostman, FaNode, SiAdobe, SiAdobeaftereffects, SiAdobephotoshop, SiAdobeillustrator, SiAdobelightroomclassic, SiAdobepremierepro, SiAdobeaudition].map((Icon, index) => (
+        {[FaHtml5, FaCss3Alt, FaJsSquare, SiTypescript, FaReact, SiTailwindcss, FaBootstrap, FaPython, FaNode, SiExpress, FaDatabase, FaRProject, SiPostgresql, SiPostman, FaDocker,  SiFigma, SiCanva, SiAdobe, SiAdobeaftereffects, SiAdobephotoshop, SiAdobeillustrator, SiAdobelightroomclassic, SiAdobepremierepro, SiAdobeaudition].map((Icon, index) => (
           <div 
             key={index}
             className="transition-all duration-300"
             style={{
-              transform: hoverIndex === index ? 'scale(2)' : hoverIndex === index - 1 || hoverIndex === index + 1 ? 'scale(0.9) translateX(' + (hoverIndex === index - 1 ? '10px' : '-10px') + ')' : 'scale(1)',
+              transform: hoverIndex === index ? 'scale(2)' : hoverIndex === index - 1 || hoverIndex === index + 1 ? 'scale(0.8) translateX(' + (hoverIndex === index - 1 ? '15px' : '-15px') + ')' : 'scale(1)',
               zIndex: hoverIndex === index ? '10' : '1'
             }}
             onMouseEnter={() => setHoverIndex(index)}

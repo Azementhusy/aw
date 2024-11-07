@@ -2,8 +2,10 @@ import React from 'react';
 
 const Projects = ({ projects }) => {
   return (
-    <div>
-      <h3 className='section'>Projects</h3>
+    <div className="flex flex-col items-center p-4">
+      <h3 className="text-3xl font-bold">Projects</h3>
+      <div className="divider my-0"></div>
+
     </div>
   );
 };
