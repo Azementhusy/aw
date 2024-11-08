@@ -11,15 +11,15 @@ const Skills = () => {
       <h3 className="text-3xl font-bold">Skills</h3>
       <div className="divider my-0"></div>
 
-      <div className = 'row'>
-        <div class='col-md-12'>
+      <div className = "flex flex-col items-start justify-items-start w-full">
+
             <ul>
                 <li><strong>Programming: </strong>HTML, CSS (SCSS), JavaScript (TypeScript), Python, Postman, Node.js</li>
                 <li><strong>Data Analysis: </strong>Excel, R, PostgreSQL</li>
-                <li><strong>Design: </strong></li>
+                <li><strong>Design: </strong>Figma, Canva, Storyboard</li>
                 <li><strong>Media: </strong>Premiere Pro, After Effect, Photoshop, Illustrator, Lightroom, Audition</li>
             </ul>
-        </div>
+
       </div>
 
       <div className="flex justify-center gap-4 p-4">

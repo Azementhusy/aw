@@ -19,10 +19,7 @@ const About = () => {
         
         <div className="flex flex-col ml-4 w-3/4">
           <div>
-            <p>I am a front-end developer with a background in the arts, and I have also studied and researched back-end fields such
-              as interface design and database management. I possess fluent English communication skills and strong self-learning
-              abilities, enabling me to quickly adapt to different work environments and master the latest technological trends. I am
-              passionate about creative front-end design and enjoy exploring new ideas and solutions in projects</p>
+            <p>I am a full-stack developer with a background in the arts. I possess fluent English communication skills and strong self-learning abilities, enabling me to quickly adapt to different work environments and master the latest technological trends. I studied for a Masters in Human-Computer Interaction at UCD and graduated with First Class HonoursI am passionate about creative front-end design and enjoy exploring new ideas and solutions in projects.</p>
             <p>HTML, CSS, JavaScript, React, Node.js, Express, Java, Spring, Python</p>
           </div>
         </div>
